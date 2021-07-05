@@ -1,0 +1,256 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kauak\\OneDrive\\Área de Trabalho\\ContratoSeguroApi\\ContratoSeguro\\ContratoSeguro.Infra.Data\\ContratoSeguro.Infra.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kauak\\OneDrive\\Área de Trabalho\\ContratoSeguroApi\\ContratoSeguro\\ContratoSeguro.Comum\\ContratoSeguro.Comum.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kauak\\OneDrive\\Área de Trabalho\\ContratoSeguroApi\\ContratoSeguro\\ContratoSeguro.Comum\\ContratoSeguro.Comum.csproj",
+        "projectName": "ContratoSeguro.Comum",
+        "projectPath": "C:\\Users\\kauak\\OneDrive\\Área de Trabalho\\ContratoSeguroApi\\ContratoSeguro\\ContratoSeguro.Comum\\ContratoSeguro.Comum.csproj",
+        "packagesPath": "C:\\Users\\kauak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kauak\\OneDrive\\Área de Trabalho\\ContratoSeguroApi\\ContratoSeguro\\ContratoSeguro.Comum\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kauak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Core": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "Flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "Flunt.Br": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.Azure.CognitiveServices.ContentModerator": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.23.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kauak\\OneDrive\\Área de Trabalho\\ContratoSeguroApi\\ContratoSeguro\\ContratoSeguro.Dominio\\ContratoSeguro.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kauak\\OneDrive\\Área de Trabalho\\ContratoSeguroApi\\ContratoSeguro\\ContratoSeguro.Dominio\\ContratoSeguro.Dominio.csproj",
+        "projectName": "ContratoSeguro.Dominio",
+        "projectPath": "C:\\Users\\kauak\\OneDrive\\Área de Trabalho\\ContratoSeguroApi\\ContratoSeguro\\ContratoSeguro.Dominio\\ContratoSeguro.Dominio.csproj",
+        "packagesPath": "C:\\Users\\kauak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kauak\\OneDrive\\Área de Trabalho\\ContratoSeguroApi\\ContratoSeguro\\ContratoSeguro.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kauak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\kauak\\OneDrive\\Área de Trabalho\\ContratoSeguroApi\\ContratoSeguro\\ContratoSeguro.Comum\\ContratoSeguro.Comum.csproj": {
+                "projectPath": "C:\\Users\\kauak\\OneDrive\\Área de Trabalho\\ContratoSeguroApi\\ContratoSeguro\\ContratoSeguro.Comum\\ContratoSeguro.Comum.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "Flunt.Br": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kauak\\OneDrive\\Área de Trabalho\\ContratoSeguroApi\\ContratoSeguro\\ContratoSeguro.Infra.Data\\ContratoSeguro.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kauak\\OneDrive\\Área de Trabalho\\ContratoSeguroApi\\ContratoSeguro\\ContratoSeguro.Infra.Data\\ContratoSeguro.Infra.Data.csproj",
+        "projectName": "ContratoSeguro.Infra.Data",
+        "projectPath": "C:\\Users\\kauak\\OneDrive\\Área de Trabalho\\ContratoSeguroApi\\ContratoSeguro\\ContratoSeguro.Infra.Data\\ContratoSeguro.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\kauak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kauak\\OneDrive\\Área de Trabalho\\ContratoSeguroApi\\ContratoSeguro\\ContratoSeguro.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kauak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\kauak\\OneDrive\\Área de Trabalho\\ContratoSeguroApi\\ContratoSeguro\\ContratoSeguro.Dominio\\ContratoSeguro.Dominio.csproj": {
+                "projectPath": "C:\\Users\\kauak\\OneDrive\\Área de Trabalho\\ContratoSeguroApi\\ContratoSeguro\\ContratoSeguro.Dominio\\ContratoSeguro.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "SignNow.Net": {
+              "target": "Package",
+              "version": "[0.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
